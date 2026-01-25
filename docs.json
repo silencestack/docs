@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "MintCloud Solutions",
   "colors": {
-    "primary": "#ffffff",
+    "primary": "#a9ffa9",
     "light": "#ffffff",
-    "dark": "#ffffff"
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -69,10 +69,7 @@
       }
     ]
   },
-  "logo": {
-    "light": "/images/light.svg",
-    "dark": "/images/dark.svg"
-  },
+  "logo": "/images/light.svg",
   "navbar": {
     "links": [
       {
