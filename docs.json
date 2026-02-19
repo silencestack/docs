@@ -14,22 +14,21 @@
         "tab": "Guides",
         "groups": [
           {
+            "group": "MintCloud",
+            "pages": []
+          },
+          {
             "group": "Informacje",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
+            "group": "VPS",
+            "pages": []
           },
           {
-            "group": "Writing content",
+            "group": "Windows Server",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -38,12 +37,28 @@
             ]
           },
           {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
+            "group": "Linux",
+            "pages": []
+          },
+          {
+            "group": "Usługi Zewnętrzne",
+            "pages": []
+          },
+          {
+            "group": "Discord Bot",
+            "pages": []
+          },
+          {
+            "group": "Panele Zarządzania",
+            "pages": []
+          },
+          {
+            "group": "Minecraft",
+            "pages": []
+          },
+          {
+            "group": "FiveM",
+            "pages": []
           }
         ]
       },
