@@ -15,43 +15,9 @@
         "groups": [
           {
             "group": "MintCloud",
-            "pages": []
-          },
-          {
-            "group": "Informacje",
-            "pages": []
-          },
-          {
-            "group": "VPS",
-            "pages": []
-          },
-          {
-            "group": "Windows Server",
-            "pages": []
-          },
-          {
-            "group": "Linux",
-            "pages": []
-          },
-          {
-            "group": "Usługi Zewnętrzne",
-            "pages": []
-          },
-          {
-            "group": "Discord Bot",
-            "pages": []
-          },
-          {
-            "group": "Panele Zarządzania",
-            "pages": []
-          },
-          {
-            "group": "Minecraft",
-            "pages": []
-          },
-          {
-            "group": "FiveM",
-            "pages": []
+            "pages": [
+              "kod-polecajacego"
+            ]
           }
         ]
       },
