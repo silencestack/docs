@@ -9,28 +9,36 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "anchors": [
       {
-        "tab": "Guides",
-        "groups": [
+        "anchor": "Untitled Anchor",
+        "tabs": [
           {
-            "group": "MintCloud",
-            "pages": [
-              "kod-polecajacego"
+            "tab": "Guides",
+            "groups": [
+              {
+                "group": "MintCloud",
+                "pages": [
+                  "kod-polecajacego"
+                ]
+              }
             ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": []
           },
           {
-            "group": "Endpoint examples",
-            "pages": []
+            "tab": "API reference",
+            "groups": [
+              {
+                "group": "API documentation",
+                "pages": []
+              },
+              {
+                "group": "Endpoint examples",
+                "pages": []
+              }
+            ]
+          },
+          {
+            "tab": "Untitled Tab"
           }
         ]
       }
