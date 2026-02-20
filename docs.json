@@ -1,94 +1,160 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "mintcloud.tech",
+  "name": "bleed",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#658a95",
+    "light": "#95b6bd",
+    "dark": "#658a95"
   },
-  "favicon": "/favicon.png",
+  "favicon": "favicon.png",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Wstęp",
-        "hidden": true,
-        "groups": [
+        "group": "Overview",
+        "pages": [
+          "overview/introduction",
+          "overview/donator-perks",
+          "overview/customization"
+        ]
+      },
+      {
+        "group": "Security Setup",
+        "pages": [
+          "security/antinuke",
+          "security/antiraid",
+          "security/moderation",
+          "security/fake-permissions"
+        ]
+      },
+      {
+        "group": "Server Configuration",
+        "pages": [
           {
-            "group": "Getting started",
+            "group": "Roles",
+            "icon": "users-gear",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "configuration/roles/vanity",
+              "configuration/roles/booster",
+              "configuration/roles/reaction",
+              "configuration/roles/button"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Messages",
+            "icon": "message",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "configuration/messages/system",
+              "configuration/messages/responder",
+              "configuration/messages/timer"
             ]
           },
+          "configuration/starboard",
+          "configuration/voicemaster",
+          "configuration/level-rewards",
+          "configuration/bump-reminder",
+          "configuration/reaction-triggers",
+          "configuration/command-aliases",
+          "configuration/logging"
+        ]
+      },
+      {
+        "group": "Miscellaneous",
+        "pages": [
+          "miscellaneous/music",
+          "miscellaneous/webhook",
+          "miscellaneous/giveaway",
+          "miscellaneous/counters"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
+          "integrations/spotify",
+          "integrations/lastfm",
+          "integrations/fortnite",
+          "integrations/social-notifications"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "resources/syntax",
           {
-            "group": "Writing content",
+            "group": "Scripting",
+            "icon": "scroll",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "resources/scripting/embeds",
+              "resources/scripting/variables",
+              "resources/scripting/pagination"
             ]
           },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+          "resources/permissions",
+          "resources/events",
+          "resources/voices",
+          "resources/languages"
+        ]
+      },
+      {
+        "group": "Common Issues",
+        "pages": [
+          "common-issues/ios-dash",
+          "common-issues/permissions",
+          "common-issues/server-removal"
         ]
       }
     ]
   },
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "light": "https://bleed.bot/bleed.png",
+    "dark": "https://bleed.bot/bleed.png"
+  },
+  "appearance": {
+    "default": "dark",
+    "strict": true
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Support Server",
+        "href": "https://discord.gg/bleed"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Home",
+      "href": "https://bleed.bot"
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+  "seo": {
+    "metatags": {
+      "theme-color": "#658a95",
+      "og:site_name": "bleed.bot"
+    },
+    "indexing": "navigable"
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.gg/bleed",
+      "github": "https://github.com/ju/docs"
     }
   },
-  "background": {
-    "color": {
-      "dark": "#0C0C0F"
+  "redirects": [
+    {
+      "source": "/commands",
+      "destination": "https://bleed.bot/commands"
+    },
+    {
+      "source": "/status",
+      "destination": "https://bleed.bot/status"
+    },
+    {
+      "source": "/invite",
+      "destination": "https://bleed.bot/invite"
+    },
+    {
+      "source": "/discord",
+      "destination": "https://discord.gg/bleed"
     }
-  }
+  ]
 }
