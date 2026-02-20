@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "mintcloud",
   "colors": {
-    "primary": "#00EF5F",
-    "light": "#00EF5F",
-    "dark": "#262726"
+    "primary": "#658a95",
+    "light": "#99bd95",
+    "dark": "#658a95"
   },
   "favicon": "favicon.png",
   "navigation": {
