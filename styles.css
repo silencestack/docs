@@ -1,3 +1,20 @@
 ::-webkit-scrollbar {
   display: none;
 }
+
+body {
+  background-color: #638c5f !important; /* ciemniejszy odcień mint */
+  background-image: none !important;    /* usuwa gradient / dekoracje */
+}
+
+/* Jeśli w dark mode różni się */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #638c5f !important;
+    background-image: none !important;
+  }
+}
+
+.sm\\:flex > a[href*="mintlify.com"] {
+  display: none !important;
+}
