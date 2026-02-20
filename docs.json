@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "bleed",
   "colors": {
-    "primary": "#658a95",
+    "primary": "#00EF5F",
     "light": "#95b6bd",
-    "dark": "#658a95"
+    "dark": "#00EF5F"
   },
   "favicon": "favicon.png",
   "navigation": {
