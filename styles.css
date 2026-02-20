@@ -3,14 +3,14 @@
 }
 
 body {
-  background-color: #638c5f !important; /* ciemniejszy odcień mint */
+  background-color: #0C0C0F !important; /* ciemniejszy odcień mint */
   background-image: none !important;    /* usuwa gradient / dekoracje */
 }
 
 /* Jeśli w dark mode różni się */
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #638c5f !important;
+    background-color: #0C0C0F !important;
     background-image: none !important;
   }
 }
