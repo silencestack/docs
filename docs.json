@@ -4,7 +4,7 @@
   "name": "mintcloud",
   "colors": {
     "primary": "#658a95",
-    "light": "#a0ff96",
+    "light": "#658a95",
     "dark": "#658a95"
   },
   "favicon": "favicon.png",
