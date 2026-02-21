@@ -117,7 +117,7 @@
     "links": [
       {
         "label": "Support Server",
-        "href": "https://discord.gg/bleed"
+        "href": "https://discord.gg/mintcloud"
       }
     ],
     "primary": {
@@ -135,8 +135,9 @@
   },
   "footer": {
     "socials": {
-      "discord": "https://discord.gg/bleed",
-      "github": "https://github.com/ju/docs"
+      "discord": "https://discord.gg/mintcloud",
+      "github": "https://github.com/MintCloud-Solutions",
+      "instagram": "https://www.instagram.com/mintcloud.tech/"
     }
   },
   "redirects": [
