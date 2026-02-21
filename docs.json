@@ -31,7 +31,7 @@
         "group": "Linux",
         "pages": [
           {
-            "group": "Roles",
+            "group": "Oczekuje na rozwój...",
             "icon": "users-gear",
             "pages": [
               "configuration/roles/vanity",
@@ -41,7 +41,7 @@
             ]
           },
           {
-            "group": "Messages",
+            "group": "Oczekuje na rozwój...",
             "icon": "message",
             "pages": [
               "configuration/messages/system",
@@ -81,7 +81,7 @@
         "pages": [
           "resources/syntax",
           {
-            "group": "Scripting",
+            "group": "Oczekuje na rozwój...",
             "icon": "scroll",
             "pages": [
               "resources/scripting/embeds",
